@@ -30,6 +30,7 @@
 <style lang="scss" scoped>
 .share {
   margin: 6rem 0;
+  padding: 1rem;
 
   .outline-card {
     max-width: var(--text-container);

@@ -64,6 +64,7 @@ onMounted(() => {
   width: 23vw;
   border-radius: 1rem;
   margin-right: 2rem;
+  flex-shrink: 0;
 }
 
 .logo {
@@ -81,6 +82,16 @@ onMounted(() => {
   &:hover {
     scale: 1.05;
     rotate: -1deg;
+  }
+}
+
+@media (max-width: 750px) {
+  .headline {
+    width: 75vw;
+  }
+
+  .heading {
+    font-size: 1.75rem;
   }
 }
 </style>

@@ -128,13 +128,6 @@ main .container {
   transform: translateY(.2em);
 }
 
-@media (max-width: 1500px) {
-  .text-intro {
-    max-width: 600px;
-    margin-left: auto;
-  }
-}
-
 .two-cols {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -147,6 +140,21 @@ main .container {
 
 .questions {
   text-align: center;
+}
+
+@media (max-width: 1500px) {
+  .text-intro {
+    max-width: 600px;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 750px) {
+  .two-cols {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
 }
 
 @import "transitions";
