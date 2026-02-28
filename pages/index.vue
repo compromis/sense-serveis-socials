@@ -10,10 +10,11 @@ useHead({
 useSeoMeta({
   title: 'Sense serveis socials - Compromís',
   ogTitle: 'Sense serveis socials - Compromís',
-  description: '',
-  ogDescription: '',
+  description: 'No t’han resolt la dependència? Estàs esperant plaça de centre de dia o residència fa més de 6 mesos?',
+  ogDescription: 'No t’han resolt la dependència? Estàs esperant plaça de centre de dia o residència fa més de 6 mesos?',
   ogImage: 'https://sense-serveis-socials.compromis.net/images/ogimage.jpg',
   twitterCard: 'summary_large_image',
+  keywords: 'serveis socials, dependència, discapacitat, residències, centres de dia, llistes d’espera, Compromís',
 })
 </script>
 
@@ -28,20 +29,23 @@ useSeoMeta({
           Sense serveis socials
         </h1>
 
-        <!--<Languages v-motion-slide-visible-bottom :delay="100" />-->
+        <Languages v-motion-slide-visible-bottom :delay="100" />
 
         <div class="questions" v-motion-slide-visible-bottom :delay="300">
           <p>
             No t’han resolt la dependència?
           </p>
           <p>
-            No estàs cobrant la teua prestació per dependència?
+            Estàs esperant plaça de centre de dia o residència fa més de 6 mesos?
           </p>
           <p>
             Quant de temps fa que esperes resolució del grau de discapacitat?
           </p>
           <p>
             No estan construint la residència o centre de dia del teu municipi?
+          </p>
+          <p>
+            Com a professional, el sistema s'està desbordant? Com t’afecta?
           </p>
         </div>
       </section>

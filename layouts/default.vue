@@ -7,8 +7,8 @@ import BFooter from '@compromis/blobby/components/footer/BFooter.vue'
 <template>
   <div class="site">
     <BNav>
-      <!--<BNavItem v-if="$route.path === '/cas'" href="/">Valencià</BNavItem>
-      <BNavItem v-else href="/cas">Castellano</BNavItem>-->
+      <BNavItem v-if="$route.path === '/cas'" href="/">Valencià</BNavItem>
+      <BNavItem v-else href="/cas">Castellano</BNavItem>
       <template #logo-append>Sense serveis socials</template>
     </BNav>
 

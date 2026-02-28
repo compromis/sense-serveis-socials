@@ -1,5 +1,5 @@
 <template>
-  <Vue3Marquee class="headlines" :gap="20" :duration="100">
+  <Vue3Marquee class="headlines" :gap="20" :duration="60">
     <Headline :source="['Europa Press', europapress]" url="https://www.europapress.es/comunitat-valenciana/noticia-comunitat-valenciana-cuatro-ccaa-mas-aumentan-lista-espera-dependencia-218-20250707142734.html">
       La Comunitat Valenciana, entre las cuatro CCAA que <Annotated immediate>ás aumentan su lista de espera</Annotated> de dependencia: un 21,8%
     </Headline>

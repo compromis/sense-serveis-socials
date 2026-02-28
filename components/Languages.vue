@@ -15,6 +15,7 @@
 .toolbar {
   margin-top: 1.5rem;
   font-size: var(--text-sm);
+  justify-content: center;
 }
 
 .languages {
@@ -24,10 +25,10 @@
   gap: 1rem;
 
   a {
-    color: var(--brown);
+    color: var(--white);
 
     &.active {
-      color: var(--brown);
+      color: var(--white);
       font-weight: 900;
     }
   }
