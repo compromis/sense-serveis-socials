@@ -12,7 +12,7 @@ useSeoMeta({
   ogTitle: 'Sin servicios sociales - Compromís',
   description: '¿No te han resuelto la dependencia? ¿Estás esperando plaza de centro de día o residencia desde hace más de 6 meses?',
   ogDescription: '¿No te han resuelto la dependencia? ¿Estás esperando plaza de centro de día o residencia desde hace más de 6 meses?',
-  ogImage: 'https://sense-serveis-socials.compromis.net/images/ogimage.jpg',
+  ogImage: 'https://sense-serveis-socials.compromis.net/images/ogimage.png',
   twitterCard: 'summary_large_image',
   keywords: 'servicios sociales, dependencia, discapacidad, residencias, centros de día, listas de espera, Compromís',
 })

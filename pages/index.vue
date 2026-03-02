@@ -12,7 +12,7 @@ useSeoMeta({
   ogTitle: 'Sense serveis socials - Compromís',
   description: 'No t’han resolt la dependència? Estàs esperant plaça de centre de dia o residència fa més de 6 mesos?',
   ogDescription: 'No t’han resolt la dependència? Estàs esperant plaça de centre de dia o residència fa més de 6 mesos?',
-  ogImage: 'https://sense-serveis-socials.compromis.net/images/ogimage.jpg',
+  ogImage: 'https://sense-serveis-socials.compromis.net/images/ogimage.png',
   twitterCard: 'summary_large_image',
   keywords: 'serveis socials, dependència, discapacitat, residències, centres de dia, llistes d’espera, Compromís',
 })
